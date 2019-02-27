@@ -1,0 +1,7 @@
+*.pyc
+*~
+__pycache__
+venv
+/static
+.idea
+.DS_Store
