@@ -25,7 +25,7 @@ SECRET_KEY = '4_$$!ib^z%-r*sfw3+p^6l%ndzrnfko62l^yrg^@@@m-9k*r%%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'crm',
     'crispy_forms',
     'mathfilters',
-    'django.contrib.humanize',
+    
 ]
 
 MIDDLEWARE = [
